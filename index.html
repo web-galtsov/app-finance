@@ -1,0 +1,387 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+
+<style>
+
+    #page-preloader{
+        background-color: #ffffff;
+            }
+
+</style>
+<style>
+    body[data-mage-init]{
+        overflow:hidden;
+    }
+
+    #page-preloader {
+        position: fixed;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 9999;
+        opacity: 0;
+        transition: .4s all ease-out;
+        visibility: hidden;
+    }
+
+    body[data-mage-init] #page-preloader{
+        opacity: 1;
+        height: auto;
+        visibility: visible;
+    }
+
+    #page-preloader .spinner {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        margin: -45px 0 0 -45px;
+        width: 90px;
+        height: 90px;
+        line-height: 90px;
+        box-sizing: border-box;
+        text-align: center;
+        z-index: 0;
+        text-transform: uppercase;
+        -o-text-transform: uppercase;
+        -ms-text-transform: uppercase;
+        -webkit-text-transform: uppercase;
+        -moz-text-transform: uppercase;
+    }
+
+    #page-preloader .spinner:before,
+    #page-preloader .spinner:after {
+        opacity: 0;
+        box-sizing: border-box;
+        -o-box-sizing: border-box;
+        -ms-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        content: "\0020";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border-radius: 60px;
+    }
+
+    #page-preloader .spinner:after {
+        z-index: 1;
+        animation: cssload-gogoloader 2.3s infinite 1.15s;
+        -o-animation: cssload-gogoloader 2.3s infinite 1.15s;
+        -ms-animation: cssload-gogoloader 2.3s infinite 1.15s;
+        -webkit-animation: cssload-gogoloader 2.3s infinite 1.15s;
+        -moz-animation: cssload-gogoloader 2.3s infinite 1.15s;
+    }
+
+    #page-preloader .spinner:before {
+        z-index: 2;
+        animation: cssload-gogoloader 2.3s infinite;
+        -o-animation: cssload-gogoloader 2.3s infinite;
+        -ms-animation: cssload-gogoloader 2.3s infinite;
+        -webkit-animation: cssload-gogoloader 2.3s infinite;
+        -moz-animation: cssload-gogoloader 2.3s infinite;
+    }
+
+    @keyframes cssload-gogoloader {
+        0% {
+            transform: scale(0);
+            opacity: 0;
+        }
+        50% {
+            opacity: 1;
+        }
+        100% {
+            transform: scale(1);
+            opacity: 0;
+        }
+    }
+
+    @-o-keyframes cssload-gogoloader {
+        0% {
+            -o-transform: scale(0);
+            opacity: 0;
+        }
+        50% {
+            opacity: 1;
+        }
+        100% {
+            -o-transform: scale(1);
+            opacity: 0;
+        }
+    }
+
+    @-ms-keyframes cssload-gogoloader {
+        0% {
+            -ms-transform: scale(0);
+            opacity: 0;
+        }
+        50% {
+            opacity: 1;
+        }
+        100% {
+            -ms-transform: scale(1);
+            opacity: 0;
+        }
+    }
+
+    @-webkit-keyframes cssload-gogoloader {
+        0% {
+            -webkit-transform: scale(0);
+            opacity: 0;
+        }
+        50% {
+            opacity: 1;
+        }
+        100% {
+            -webkit-transform: scale(1);
+            opacity: 0;
+        }
+    }
+
+    @-moz-keyframes cssload-gogoloader {
+        0% {
+            -moz-transform: scale(0);
+            opacity: 0;
+        }
+        50% {
+            opacity: 1;
+        }
+        100% {
+            -moz-transform: scale(1);
+            opacity: 0;
+        }
+    }
+</style>
+</head>
+
+<body>
+<style>
+
+    #page-preloader{
+        background-color: #ffffff;
+            }
+
+</style>
+<div class="page-wrapper"><style>
+    body[data-mage-init]{
+        overflow:hidden;
+    }
+
+    #page-preloader {
+        position: fixed;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 9999;
+        opacity: 0;
+        transition: .4s all ease-out;
+        visibility: hidden;
+    }
+
+    body[data-mage-init] #page-preloader{
+        opacity: 1;
+        height: auto;
+        visibility: visible;
+    }
+
+    #page-preloader .spinner {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        margin: -45px 0 0 -45px;
+        width: 90px;
+        height: 90px;
+        line-height: 90px;
+        box-sizing: border-box;
+        text-align: center;
+        z-index: 0;
+        text-transform: uppercase;
+        -o-text-transform: uppercase;
+        -ms-text-transform: uppercase;
+        -webkit-text-transform: uppercase;
+        -moz-text-transform: uppercase;
+    }
+
+    #page-preloader .spinner:before,
+    #page-preloader .spinner:after {
+        opacity: 0;
+        box-sizing: border-box;
+        -o-box-sizing: border-box;
+        -ms-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        content: "\0020";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border-radius: 60px;
+    }
+
+    #page-preloader .spinner:after {
+        z-index: 1;
+        animation: cssload-gogoloader 2.3s infinite 1.15s;
+        -o-animation: cssload-gogoloader 2.3s infinite 1.15s;
+        -ms-animation: cssload-gogoloader 2.3s infinite 1.15s;
+        -webkit-animation: cssload-gogoloader 2.3s infinite 1.15s;
+        -moz-animation: cssload-gogoloader 2.3s infinite 1.15s;
+    }
+
+    #page-preloader .spinner:before {
+        z-index: 2;
+        animation: cssload-gogoloader 2.3s infinite;
+        -o-animation: cssload-gogoloader 2.3s infinite;
+        -ms-animation: cssload-gogoloader 2.3s infinite;
+        -webkit-animation: cssload-gogoloader 2.3s infinite;
+        -moz-animation: cssload-gogoloader 2.3s infinite;
+    }
+
+    @keyframes cssload-gogoloader {
+        0% {
+            transform: scale(0);
+            opacity: 0;
+        }
+        50% {
+            opacity: 1;
+        }
+        100% {
+            transform: scale(1);
+            opacity: 0;
+        }
+    }
+
+    @-o-keyframes cssload-gogoloader {
+        0% {
+            -o-transform: scale(0);
+            opacity: 0;
+        }
+        50% {
+            opacity: 1;
+        }
+        100% {
+            -o-transform: scale(1);
+            opacity: 0;
+        }
+    }
+
+    @-ms-keyframes cssload-gogoloader {
+        0% {
+            -ms-transform: scale(0);
+            opacity: 0;
+        }
+        50% {
+            opacity: 1;
+        }
+        100% {
+            -ms-transform: scale(1);
+            opacity: 0;
+        }
+    }
+
+    @-webkit-keyframes cssload-gogoloader {
+        0% {
+            -webkit-transform: scale(0);
+            opacity: 0;
+        }
+        50% {
+            opacity: 1;
+        }
+        100% {
+            -webkit-transform: scale(1);
+            opacity: 0;
+        }
+    }
+
+    @-moz-keyframes cssload-gogoloader {
+        0% {
+            -moz-transform: scale(0);
+            opacity: 0;
+        }
+        50% {
+            opacity: 1;
+        }
+        100% {
+            -moz-transform: scale(1);
+            opacity: 0;
+        }
+    }
+	body{background:#ECF0F1}
+
+.load{position:absolute;top:50%;left:50%;transform:translate(-50%, -50%);
+  /*change these sizes to fit into your project*/
+  width:100px;
+  height:100px;
+}
+.load hr{border:0;margin:0;width:40%;height:40%;position:absolute;border-radius:50%;animation:spin 2s ease infinite}
+
+.load :first-child{background:#19A68C;animation-delay:-1.5s}
+.load :nth-child(2){background:#F63D3A;animation-delay:-1s}
+.load :nth-child(3){background:#FDA543;animation-delay:-0.5s}
+.load :last-child{background:#193B48}
+
+@keyframes spin{
+  0%,100%{transform:translate(0)}
+  25%{transform:translate(160%)}
+  50%{transform:translate(160%, 160%)}
+  75%{transform:translate(0, 160%)}
+}
+.loader {
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  left: 50%;
+  margin-left: -20px;
+  top: 50%;
+  margin-top: -20px;
+  
+  &:before,
+  &:after {
+    content: "";
+    height: 40px;
+    width: 40px;
+    border: 8px solid rgba(255,255,255,.5);
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+  }
+  
+  &:before {
+    animation: animate 2s infinite linear;
+  }
+  
+  &:after {
+    animation: animate2 2s infinite linear;
+  }
+}
+
+@keyframes animate {
+  100% {
+    transform: rotate(180deg) skew(360deg);
+  }
+}
+
+@keyframes animate2 {
+  100% {
+    transform: rotate(-180deg) skew(-360deg);
+  }
+}
+</style>
+
+<div class='loader'></div>
+
+<div class="load">
+  <hr/><hr/><hr/><hr/>
+</div>
+<div id="page-preloader">
+    <div class="spinner"></div>
+</div>
+
+</body>
+</html>
