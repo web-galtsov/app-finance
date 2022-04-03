@@ -15,7 +15,6 @@ import {
 } from "@/layout/Styles";
 import styled from "styled-components";
 
-
 SwiperCore.use([EffectCoverflow, Navigation, Pagination, Scrollbar, Autoplay]);
 
 const CarouselBoxTitle = styled.div`

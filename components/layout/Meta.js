@@ -7,18 +7,8 @@ const Meta = ({ title, keywords, description }) => {
             <meta name='keywords' content={keywords} />
             <meta name='description' content={description} />
             <meta charSet="utf-8" content="text/html;charset=UTF-8" />
-            <link rel='icon' href='/favicon.ico' />
+            <link rel="icon" type="image/x-icon" href="https://soso.co.il/favicon.ico" />
             <title>{title}</title>
-            {/* Twitter */}
-            {/*<meta name="twitter:card" content="summary" key="twcard" />*/}
-            {/*<meta name="twitter:creator" content={twitterHandle} key="twhandle" />*/}
-
-            {/* Open Graph */}
-            {/*<meta property="og:url" content={currentURL} key="ogurl" />*/}
-            {/*<meta property="og:image" content={previewImage} key="ogimage" />*/}
-            {/*<meta property="og:site_name" content={siteName} key="ogsitename" />*/}
-            {/*<meta property="og:title" content={pageTitle} key="ogtitle" />*/}
-            {/*<meta property="og:description" content={description} key="ogdesc" />*/}
         </Head>
     )
 }

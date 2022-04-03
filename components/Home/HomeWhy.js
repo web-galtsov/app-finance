@@ -26,8 +26,8 @@ function HomeWhy() {
                                 priority
                                 src="/banner-img.png"
                                 alt="background-frame"
-                                width={677}
-                                height={580}
+                                width="677"
+                                height="580"
                                 placeholder="blur"
                                 blurDataURL="/banner-img.png"
                             />

@@ -109,7 +109,10 @@ const BannerTitle = styled.h1`
   line-height: 90px;
   margin: 0;
   @media screen and ${tabletMaxS} {
-          text-align: center;
+      text-align: center;
+      font-size: 40px;
+      line-height: 60px;
+    }
   }
 `;
 const BannerP = styled.p`
@@ -141,7 +144,6 @@ const index = () => {
       <Head>
         <title>סוסופייננס</title>
         <meta name="description" content="home" />
-        <link rel="icon" href="/favicon.ico" />
         <meta
           name="description"
           content="מחפשים הלוואה? תפנו רק אל מי שילווה אתכם לכל אורך התהליך ולא רק 'ילווה' לכם. אנו בסוסו פייננס נותנים ייעוץ וליווי פיננסי חוץ בנקאי כדי לעזור לכם להשיג ביטחון כלכלי אמיתי!"
@@ -158,8 +160,8 @@ const index = () => {
                       data-aos="fade-left"
                       src="/banner-img1.png"
                       alt="background-frame"
-                      width={937}
-                      height={597}
+                      width="937"
+                      height="597"
                       placeholder="blur"
                       blurDataURL="/banner-img1.png"
                     />
@@ -172,15 +174,15 @@ const index = () => {
                 <Row>
                   <Col6 />
                   <Col6>
-                <Slogan data-aos="fade-right">
+                <Slogan >
                       סוסופייננס - הלוואות לכל מטרה וייעוץ משכנתאות
                     </Slogan>
-                    <BannerTitle data-aos="fade-up">
+                    <BannerTitle >
                         תנו לנו לעזור לכל
                       <br />
                       <span>בתשלומי המשכנתא</span>
                     </BannerTitle>
-                    <BannerP data-aos="fade-right">
+                    <BannerP >
                       כרז לבנקים - נבנה עבורכם תמהיל עם מסלולים באמצעות מומחי
                       פיננסים ונגיש אותו למכרז ריביות בין הבנקים כדי שתקבלו את
                       ההצעה המשלמת ביותר.

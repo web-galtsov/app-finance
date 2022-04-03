@@ -61,7 +61,7 @@ function NavMenu() {
                             <HeaderLogoPanelBrand>
                                 <Link href="/" passHref>
                                     <HeaderLogoPanelBrandLink>
-                                        <Image src="/logo.png" alt="SOSOFinance" width={150} height={105}/>
+                                        <Image src="/logo.png" alt="SOSOFinance" width="150" height="105"/>
                                     </HeaderLogoPanelBrandLink>
                                 </Link>
                             </HeaderLogoPanelBrand>

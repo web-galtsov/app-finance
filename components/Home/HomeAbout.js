@@ -44,8 +44,8 @@ function HomeAbout() {
                             data-aos="fade-right"
                             priority src="/slider-rimg.png"
                             alt="background-frame"
-                            width={552}
-                            height={652}
+                            width="552"
+                            height="652"
                             placeholder="blur"
                             blurDataURL="/slider-rimg.png"
                         />

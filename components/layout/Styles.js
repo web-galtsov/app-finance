@@ -512,6 +512,9 @@ export const TextH1 = styled.div`
    @media screen and ${mobile} {
       font-size: 30px;
    }
+   @media screen and ${tabletMaxM} {
+      font-size: 28px;
+   }
 `;
 
 export const TextH6 = styled.h6`
@@ -521,6 +524,9 @@ export const TextH6 = styled.h6`
       font-size: 16px;
    @media ${mobile} {
       letter-spacing: 2px;
+   }
+   @media screen and ${tabletMaxM} {
+      font-size: 15px;
    }
 `;
 export const TextP = styled.div`
