@@ -28,8 +28,6 @@ function MyApp({ Component, pageProps }) {
             router.events.off('routeChangeComplete', handleRouteChange)
         }
     }, [router.events])
-
-
     return (
         <Layout>
             <NextSeo
@@ -44,15 +42,14 @@ function MyApp({ Component, pageProps }) {
                     description: "תשואות פיננסים הינה אחת מחברות ייעוץ המשכנתאות המוערכות ביותר בישראל. בעלי החברה יוצאי המערכת הבנקאית אשר כיהנו בתפקידי מפתח בבנקים השונים בתחום האשראי והמשכנתאות. כמו כן, היועצים בחברה חברים בהתאחדות יועצי המשכנתאות",
                     images: [
                         {
-                            url: "https://wazana.dev/og.png",
-                            width: 800,
-                            height: 420,
+                            url: "https://www.soso.co.il/logo-soso.png",
+                            width: 500,
+                            height: 500,
                             alt: "סוסו פייננס",
                         },
                     ],
                 }}
             />
-            {/* Global Site Tag (gtag.js) - Google Analytics */}
             <Script
                 strategy="afterInteractive"
                 src={`https://www.googletagmanager.com/gtag/js?id=${gtag.GA_TRACKING_ID}`}

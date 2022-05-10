@@ -1,11 +1,11 @@
 import styled from 'styled-components';
 
-export const FooterLinksWrapper = styled.div`
+export const FooterLinksWrapper = styled.ul`
   display: flex;
   cursor: pointer;
   position: relative;
 `;
-export const FooterLinkItems = styled.a`
+export const FooterLinkItems = styled.li`
   margin: 16px;
   text-align: right;
   color: #fff;
@@ -14,7 +14,7 @@ export const FooterLinkItems = styled.a`
     padding: 10px;
   }
 `;
-export const FooterLinkTitle = styled.span`
+export const FooterLinkTitle = styled.a`
   margin-bottom: 16px;
   font-size: 14px;
   color: #fff;

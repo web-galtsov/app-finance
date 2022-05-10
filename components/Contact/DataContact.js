@@ -3,27 +3,27 @@ const contactData = [
     {
         id: "2",
         address: "כתובות דוא\"ל",
-        addressLink1: "Info@soso.co.il",
-        addressLink2: "soso1finance@gmail.com",
-        linkA1: "mailto:Info@soso.co.il",
-        linkA2: "mailto:soso1finance@gmail.com",
+       addressLink1: "soso1finance@gmail.com",
+        addressLink2: "sosooffice2@gmail.com",
+        linkA2: "mailto:sosooffice2@gmail.com",
+        linkA1: "mailto:soso1finance@gmail.com",
         arialLabel: "email",
         icon: <FiMail/>
     },
     {
         id: "3",
         address: "מספר טלפון",
-        addressLink1: "(+972) 053-7734677",
-        addressLink2: "(+972) 054-6868540",
-        linkA1: "tel:9720537734677",
-        linkA2: "tel:9720546868540",
+        addressLink1: "0503467613",
+        addressLink2: "0537734677",
+        linkA1: "tel:9720503467613",
+        linkA2: "tel:9720537734677",
         arialLabel: "telethon",
         icon: <FiPhoneCall/>
     },
     {
         id: "1",
         address: "כתובת",
-        addressLink1: "ראשון לציון, משה לוי 12",
+        addressLink1: "הכישור 30 חולון",
         addressLink2: "ישראל",
         arialLabel: "address",
         icon: <FiMap/>

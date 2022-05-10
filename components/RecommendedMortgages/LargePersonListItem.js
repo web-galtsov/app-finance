@@ -2,7 +2,7 @@ export const LargePersonListItem = ({ person }) => {
     const { name, icon, description } = person;
     return (
         <>
-                  <h4>{name}</h4>
+                  <h2>{name}</h2>
                   <p>{icon}</p>
             <ul>
                 {description.map(description =>

@@ -39,7 +39,7 @@ export const mortgageData = [
             "אחוז המימון המקסימלי שמאשרים הבנקים המסחריים עבור רכישת נכס הוא % 75 בהתאם לערכו בשוק כפי שקבע שמאי המקרקעין, או לחלופין בהתאם לעלות הנכס שרשומה בחוזה המכר. לקוח שמעוניין לקבל הלוואה עבור נכס קיים יוכל לקבל עד % 50 מערכו בהתאם לקביעה של שמאי המקרקעין על ערך הנכס בשווי השוק. אם על נכס ספציפי זה רשומה כבר משכנתא, סך המשכנתא החדשה תהיה נמוכה יותר וזאת על פי הסכום שנותר לתשלום.",
             ],
         imgStart: true,
-        img: require('../../public/vecteezy_income-analysis-of-housing-investment-business.jpg'),
+        img: require('../../public/vecteezy_income-analysis-of-housing-investment-business.webp'),
         alt: "soso",
         dark: true,
         primary: true,

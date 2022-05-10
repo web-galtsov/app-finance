@@ -98,26 +98,26 @@ const mortgage_deniers = () => {
                         </Col6>
                         <Col6 className="pr" data-aos="fade-right">
                             <WitrShapeItem>
-                                <Image
-                                    priority
-                                    src="/shapen.png"
+                                   <Image
+                                        src="/shapen.webp"
+                                        alt="background-frame"
+                                        placeholder="blur"
+                                        blurDataURL="/shapen.webp"
+                                        width={498}
+                                        height={545}
+                                        priority
+                                    />
+                            </WitrShapeItem>
+                               <Image
+                                    data-aos="fade-right"
+                                    src="/shapenpic.webp"
                                     alt="background-frame"
                                     width={498}
                                     height={545}
                                     placeholder="blur"
-                                    blurDataURL="/shapen.png"
+                                    blurDataURL="/shapenpic.webp"
+                                    priority
                                 />
-                            </WitrShapeItem>
-                            <Image
-                                data-aos="fade-right"
-                                priority
-                                src="/shapenpic.png"
-                                alt="background-frame"
-                                width={498}
-                                height={545}
-                                placeholder="blur"
-                                blurDataURL="/shapenpic.png"
-                            />
                         </Col6>
                     </FlexContainerN>
                 </Container>

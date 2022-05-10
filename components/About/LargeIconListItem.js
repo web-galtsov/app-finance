@@ -10,7 +10,7 @@ export const LargeIconListItem = ({ person }) => {
   const { name, icon, description } = person;
   return (
     <FlexItems
-      aria-rowindex="-1"
+      aria-rowindex="1"
       className="col12 col6  col3"
       data-aos="zoom-in"
     >
@@ -25,7 +25,7 @@ export const LargeIconListItem = ({ person }) => {
             </div>
           </BoxContectIcon>
           <BoxContectTitle>
-            <h4>{name}</h4>
+            <h2>{name}</h2>
             <p>{description}</p>
           </BoxContectTitle>
         </BoxContect>

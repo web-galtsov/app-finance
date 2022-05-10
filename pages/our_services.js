@@ -19,6 +19,9 @@ import {LargePersonListItem} from "../components/OurServices/LargePersonListItem
 import OurservicesYoutube from "../components/OurServices/OurservicesYoutube";
 import {ourserviceData} from "../components/OurServices/ourservicesData"
 
+const word1 = 'ה "אני מאמין " שלנו: ' // eslint-disable-next-line
+const word2 = '    להעניק ערך אמיתי ללקוחותינו ולעשות השתדלות מקסימלית  לעזור לכל אחד בתחום משכנתאות והפיננסים. אנחנו רוצים לעשות לכם את התהליך כמה שיותר פשוט וקל.ייעוץ ראשוני ללא תשלום וללא מקדמה – שכר טרחה ישולם לנו על בסיס הצלחה בלבד!\n' +
+    '                                    אם לא הצלחנו בעבודתנו עבדנו לחינם ונשאר חברים :)' // eslint-disable-next-line
 const our_services = () => {
     return (
         <>
@@ -30,31 +33,31 @@ const our_services = () => {
             </Head>
             <WrapContent className="pt pb background-grey">
                 <Container>
+
                     <FlexContainerN>
                         <Col6 className="pl child--featured " >
                             <BoxInfo data-aos="fade-left">
-                                <TextH1>
-                                    השירותים שלנו
-                                </TextH1>
+                                <TextH1> {word1} </TextH1>
                                 <EmBar>
                                     <EmBarBg/>
                                 </EmBar>
                                 <TextP>
-                                    סוסו פייננס נולד כחזון של ילד שגדל בבית חד-הורי, ועבר את תלאות העליה. אימי התמודדה עם עול המשכנתא, וכבן בכור הבטחתי לעצמי שאעזור לה, ולכל אחד להתמודד עם המעמסה של המשכנתא.
-                                    לימים, בחרתי ללמוד ולהתמקצע בתחום הפיננסי, במטרה לסייע לכל אדם באשר הוא להבין מהו המושג ימשכנתאי, ולדעת מה הן האפשרויות אשר מעניקות בטחון כלכלי ורווחה עבור כל בעל משפחה ועסק.
+                                    {word2}
+
                                 </TextP>
                             </BoxInfo>
                         </Col6>
                         <Col6 className="pr" data-aos="fade-right">
-                            <Image
-                                data-aos="fade-right"
-                                src="/home-16-left-image.png"
-                                alt="background-frame"
-                                width={513}
-                                height={473}
-                                placeholder="blur"
-                                blurDataURL="/home-16-left-image.png"
-                            />
+                               <Image
+                                    data-aos="fade-right"
+                                    src="/home-16-left-image.webp"
+                                    alt="background-frame"
+                                    placeholder="blur"
+                                    blurDataURL="/home-16-left-image.webp"
+                                    width={513}
+                                    height={473}
+                                    priority
+                               />
                         </Col6>
                     </FlexContainerN>
                 </Container>

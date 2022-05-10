@@ -23,7 +23,7 @@ export default function  AboutInfoSection() {
 return (
     <>
         { aboutData.map((item,pos) => {
-            const {lightBg, id, imgStart, topLine,lightText,headLine, darkText, description, img,alt, shape, width, height,left,right, top} = item
+            const {lightBg, id, imgStart, topLine,lightText,headLine, description, img,alt, shape, width, height,left,right, top} = item
             return (
                 <InfoContainer key={item.id} lightBg={lightBg} className="pt120 pb hisfull_about_area">
                     <Container key={item.id}>
@@ -36,7 +36,7 @@ return (
                                         <EmBar>
                                             <EmBarBg/>
                                         </EmBar>
-                                        <TextP  key={item.id} darkText={darkText}>{description}</TextP>
+                                        <TextP  key={item.id}>{description}</TextP>
                                     </BoxInfo>
                                 </Column1>
                                 <Column2 data-aos="fade-right">
@@ -48,6 +48,7 @@ return (
                                                         alt={alt}
                                                         width={width}
                                                         height={height}
+                                                        priority
                                                     />
                                             </SingleImgAni>
                                         </WitrShapeItemInner>
@@ -55,6 +56,7 @@ return (
                                             <Image
                                                 src={img}
                                                 alt={alt}
+                                                priority
                                             />
                                         </SingleImage>
                                     </ImgWrap>

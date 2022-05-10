@@ -85,8 +85,9 @@ export default function ContactB() {
       <ContactBoxInfo data-aos="fade-left">
         <ContactWrapForm>
           <ContactFormTitle>
-            <ContactFormTitleH6>קבלו ייעוץ מהמומחים שלנו</ContactFormTitleH6>
-            <h2>נהיה בקש</h2>
+            <ContactFormTitleH6>לייעוץ ראשוני בחינם השאירו פרטים: </ContactFormTitleH6>
+            <h2>ניהיה בקשר</h2>
+
           </ContactFormTitle>
           <ContactFormDetail>
             <form onSubmit={(e) => onSubmitForm(e)}>
@@ -117,7 +118,7 @@ export default function ContactB() {
                 </Col12>
                 <Col12 className="mb20">
                   <ContactFormInput
-                    id="email"
+                    id="email1"
                     type="email"
                     value={inputs.email}
                     onChange={handleChange}

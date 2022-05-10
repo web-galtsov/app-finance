@@ -476,12 +476,13 @@ const NonBankMortgage = () => {
                 <FeatureShape1>
                     <Image
                         data-aos="fade-right"
-                        src="/feature-shape.png"
+                        src="/feature-shape.webp"
                         alt="background-frame"
+                        priority
                         width={605}
                         height={570}
                         placeholder="blur"
-                        blurDataURL="/feature-shape.png"
+                        blurDataURL="/feature-shape.webp"
                     />
                 </FeatureShape1>
                 <SectionTitleText data-aos="zoom-out" style={{zIndex: "2"}}>

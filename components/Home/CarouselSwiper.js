@@ -113,7 +113,13 @@ export default function CarouselSwiper() {
                                     </p>
                                 </CarouselBoxContect>
                                 <CarouselBoxContectImg>
-                                    <Image src={obj.img} width={obj.width} height={obj.height} alt={obj.alt}/>
+                                        <Image
+                                             src={obj.img}
+                                             alt={obj.alt}
+                                             width={obj.width}
+                                             height={obj.height}
+                                             priority
+                                         />
                                 </CarouselBoxContectImg>
                                 <CarouselBoxTitle>
                                     <h4>{obj.title}</h4>

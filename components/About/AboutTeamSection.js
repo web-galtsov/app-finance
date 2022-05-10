@@ -11,24 +11,24 @@ import { LargeTeamListItem } from "./LargeTeamListItem";
 
 const people = [
   {
-    title: "JON MANAGER",
-    img: "/team-img01.jpg",
+    title: "צילה טל", // eslint-disable-next-line
+    img: "/mother-tem.webp",
     alt: "team",
-    position: "Financial Officer",
+    position: "מנהלת שיווק ומכירות",
     dataAos: "fade-left",
   },
   {
-    title: "JON COHEN",
-    img: "/team-img01.jpg",
+    title: "יוסף גוריאלי", // eslint-disable-next-line
+    img: "/son-team.webp",
     alt: "team",
-    position: "Financial Officer",
+    position: "  יועץ משכנתאות",
     dataAos: "zoom-in",
   },
   {
-    title: "JON MANAGER",
-    img: "/team-img01.jpg",
+    title: "מאיה רובינשטיין",
+    img: "/team-img01.webp",
     alt: "team",
-    position: "Financial Officer",
+    position: "ניהול קשרי לקוחות",
     dataAos: "fade-right",
   },
 ];
@@ -38,9 +38,9 @@ function AboutTeamSection() {
     <>
       <WrapContent className="pt pb background-grey" id="team">
         <SectionTitleText>
-          <h6>תעודת הוקרה</h6>
-          <h1>מה אומר</h1>
-          <h1>לקוחות ממליצים</h1>
+         {/* <span>תעודת הוקרה</span>
+          <h1>מה אומר</h1>*/}
+          <h1>צוות סוסופייננס</h1>
         </SectionTitleText>
         <EmBarBg />
         <Container className="mt70">

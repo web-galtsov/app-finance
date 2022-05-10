@@ -3,7 +3,7 @@ import { v4 as uuidv4 } from "uuid";
 const dataTeam = [
     {
         id: uuidv4(),
-        img: require("../../public/01-test.png"),
+        img: require("../../public/01-test.webp"),
         alt: "soso",
         title: "נועה סלמי",
         data: "21.12.2021",
@@ -14,7 +14,7 @@ const dataTeam = [
     },
     {
         id: uuidv4(),
-        img: require("../../public/tem-2.png"),
+        img: require("../../public/tem-2.webp"),
         alt: "מיכאל",
         title: "מיכאל",
         data: "04.03.2021",
@@ -27,7 +27,7 @@ const dataTeam = [
     },
     {
         id: uuidv4(),
-        img: require("../../public/tem-3.png"),
+        img: require("../../public/tem-3.webp"),
         alt: "דן",
         title: "דן",
         data: "10.02.2021",
@@ -40,7 +40,7 @@ const dataTeam = [
     },
     {
         id: uuidv4(),
-        img: require("../../public/tem-4.png"),
+        img: require("../../public/tem-4.webp"),
         alt: "Aya Salamy",
         title: "Aya Salamy",
         data: "08.04.2021",
@@ -51,7 +51,7 @@ const dataTeam = [
     },
     {
         id: uuidv4(),
-        img: require("../../public/tem-5.png"),
+        img: require("../../public/tem-5.webp"),
         alt: "Миша Елевич",
         title: "Миша Елевич",
         data: "19.04.2021",
@@ -62,7 +62,7 @@ const dataTeam = [
     },
     {
         id: uuidv4(),
-        img: require("../../public/tem-3.png"),
+        img: require("../../public/tem-3.webp"),
         alt: "דן",
         title: "דן",
         data: "10.02.2021",
@@ -75,7 +75,7 @@ const dataTeam = [
     },
     {
         id: uuidv4(),
-        img: require("../../public/tem-2.png"),
+        img: require("../../public/tem-2.webp"),
         alt: "מיכאל",
         title: "מיכאל",
         data: "04.03.2021",

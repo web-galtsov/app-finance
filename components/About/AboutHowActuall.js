@@ -15,41 +15,41 @@ import { LargeIconListItem } from "./LargeIconListItem";
 
 const help = [
   {
-    name: "ביורוקרטיה",
-    icon: <RiFileCopyLine style={{ marginRight: "11px", marginTop: "25px" }} />,
+    name: "מחקר",
+    icon: (
+        <MdOutlineManageSearch
+            style={{ marginRight: "11px", marginTop: "25px" }}
+        />
+    ),
     description:
-      "לורם איפסום הוא טקסט חסר הקשר וחסר משמעות בכוונה - וזאת כדי שעין הקורא לא יתצודי בזמן הרפרוף עליו, מילה",
+        "אנו בחברת סוסופייננס מבצעים עבור הלקוח ניתוח מעמיק בפרופיל הפיננסי.",
   },
   {
     name: "מכרז לבנקים",
     icon: <GiPayMoney style={{ marginRight: "11px", marginTop: "25px" }} />,
     description:
-      "לורם איפסום הוא טקסט חסר הקשר וחסר משמעות בכוונה - וזאת כדי שעין הקורא לא",
+        "בעזרת כלכלנים מומחים, עם וותק בתחום הבנקאות,אנו בונים תמהיל עם מסלולים המותאמים אישית ללקוח. את התמהיל אנו מגישים למכרז ריביות בין הבנקים, על מנת לקבל את ההצעה המשתלמת ביותר.",
   },
   {
+    name: "ביורוקרטיה",
+    icon: <RiFileCopyLine style={{ marginRight: "11px", marginTop: "25px" }} />,
+    description:
+      "אנו נדאג להכין עבורכם את כל מה שצריך בכדי למנוע מכם לבזבז זמן, אנרגיות ושעות עבודה.",
+  },
+    {
     name: "חתימה",
     icon: <TiPencil style={{ marginRight: "11px", marginTop: "25px" }} />,
     description:
-      "אם בשלב הסקיצה העיצובית עדיין לא קיים הטקסט הרלוונטי, לא מומלץ למקם טקסט",
-  },
-  {
-    name: "מחקר",
-    icon: (
-      <MdOutlineManageSearch
-        style={{ marginRight: "11px", marginTop: "25px" }}
-      />
-    ),
-    description:
-      "אם בשלב הסקיצה העיצובית עדיין לא קיים הטקסט הרלוונטי, לא מומלץ למקם טקסט אמיתי אחר",
-  },
-];
+      "חתימה- מה שנותר לכם הוא רק לחתום על טפסי המשכנתא, ולצאת מחויכים כל הדרך מהבנק. ",
+  }
+ ];
 
 function AboutHowActuall() {
   return (
     <WrapContent className="pt pb background-white" id="quite">
       <SectionTitleText>
-        <h6>תעודת הוקרה</h6>
-        <h1>מה אומר</h1>
+        {/*<span>תעודת הוקרה</span>*/}
+       {/* <h1>מה אומר</h1>*/}
         <h1>איך בעצם אני יכול לעזור לכם?</h1>
       </SectionTitleText>
       <EmBarBg />

@@ -33,10 +33,10 @@ const Item = styled.div`
   :hover ul li {
     color: white;
   }
-  :hover h4 {
+  :hover h2 {
     color: white;
   }
-  :hover h4:before {
+  :hover h2:before {
     background: white;
   }
   :hover div {
@@ -59,7 +59,7 @@ const ItemBox = styled.div`
     line-height: 2;
     margin-bottom: 1rem;
   }
-  h4 {
+  h2 {
     font-size: 20px;
     font-weight: 600;
     position: relative;

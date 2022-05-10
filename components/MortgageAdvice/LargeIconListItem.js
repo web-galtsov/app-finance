@@ -14,7 +14,7 @@ const Card = styled.div`
   ul li {
     margin-bottom: 10px;
   }
-  h3 {
+  h2 {
     color: #2A4098;
     transition: .5s;
     font-size: 18px;
@@ -47,7 +47,7 @@ const Card = styled.div`
     cursor: pointer;
     color: white;
   }
-  &&:hover h3 {
+  &&:hover h2 {
     color: white;
   }
 `;
@@ -78,7 +78,7 @@ export const LargeIconListItem = ({ person }) => {
             {icon}
           </StyleIcon>
         </Icons>
-        <h3>{name}</h3>
+        <h2>{name}</h2>
           <ul>
               {description.map(description =>
                   <li key={description}>{description}</li>

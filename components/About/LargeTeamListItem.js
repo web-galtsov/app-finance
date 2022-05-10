@@ -13,11 +13,19 @@ export const LargeTeamListItem = ({ people }) => {
     <AboutTeamItem className="witr_team" data-aos={dataAos}>
       <AboutTeamItemView className="background-white">
         <AboutTeamItemViewPosition>
-          <Image src={img} alt={alt} width={214} height={232}  placeholder="blur" blurDataURL={img}/>
+                <Image
+                    src={img}
+                    alt={alt}
+                    width={214}
+                    height={232}
+                    placeholder="blur"
+                    blurDataURL={img}
+                    priority
+                />
         </AboutTeamItemViewPosition>
         <AboutTeamItemInfo>
-          <h5>{title}</h5>
-          <span>{position}</span>
+          <span>{title}</span>
+          <p>{position}</p>
         </AboutTeamItemInfo>
         <div className="team_line team_line_top" />
         <div className="team_line team_line_bottom" />

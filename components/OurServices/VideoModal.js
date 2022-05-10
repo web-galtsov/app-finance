@@ -107,7 +107,7 @@ export const VideoModal = () => {
         <>
             <MainVideo>
                 <div>
-                   <button onClick={() => setShouldShow(true)}><MdPlayArrow/></button>
+                   <button onClick={() => setShouldShow(true)} aria-label ="play YouTube"><MdPlayArrow/></button>
                 </div>
             </MainVideo>
             {shouldShow && (

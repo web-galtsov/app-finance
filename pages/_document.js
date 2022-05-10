@@ -7,7 +7,7 @@ class MyDocument extends Document {
     }
     render() {
         return (
-            <Html lang="he-IL" dir="rtl">
+            <Html lang="he-il" dir="rtl">
                 <Head>
                     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Hebrew:wght@300;400;600;700;800;900&display=swap" rel="stylesheet"/>
                     <meta httpEquiv="X-UA-Compatible" content="IE=edge" />

@@ -8,12 +8,12 @@ export const routesData = [
               "המסלולים השונים המוצעים ללקוחות מאפשרים לכל לקוח לפעול בכמה מסלולים וכך ליצור מסלול גמיש שהוא הנכון ביותר לעסקה הספציפית."
          ],
         imgStart: true,
-        img: require('../../public/recom-1.png'),
+        img: require('../../public/recom-1.webp'),
         alt: "soso",
         left: true,
         top: true,
         right: true,
-        shape: require('../../public/solution-bg.png'),
+        shape: require('../../public/solution-bg.webp'),
         width: "608",
         height: "597"
     },
@@ -26,12 +26,12 @@ export const routesData = [
                 "המסלולים השונים המוצעים ללקוחות מאפשרים לכל לקוח לפעול בכמה מסלולים וכך ליצור מסלול גמיש שהוא הנכון ביותר לעסקה הספציפית.",
            ],
         imgStart: false,
-        img: require('../../public/recom-2.png'),
+        img: require('../../public/recom-2.webp'),
         alt: "soso",
         left: true,
         top: true,
         right: true,
-        shape: require('../../public/solution-bg.png'),
+        shape: require('../../public/solution-bg.webp'),
         width: "608",
         height: "597"
     }
@@ -50,7 +50,7 @@ export const recommendData = [
                 "יועץ המשכנתאות יציע לכם את המשכנתא בשילוב נכון של כמה מסלולים אשר תואמים את מצבכם הפיננסי, כדי לא להכביד על נתח ההוצאות החודשיות המשפחתיות. הלקוחות רואים את האופציות השונות על פי נתוני התוכנה שמאפשרת סימולציה של האופציות בהצעות השונות וההבדלים ביניהן."
           ],
         imgStart: true,
-        img: require('../../public/businessgrow_img.png'),
+        img: require('../../public/businessgrow_img.webp'),
         alt: "soso",
         left: true,
         top: true,

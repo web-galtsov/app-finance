@@ -14,7 +14,6 @@ const CarouselSwiperIcon = dynamic(() => import("../components/Home/CarouselSwip
 import "swiper/swiper-bundle.min.css";
 import "swiper/swiper.min.css";
 import { Col6, ContainerFluid, Row, Container } from "@/layout/Styles";
-
 const HomeBackground = styled.div`
   padding: 0 !important;
   position: relative;
@@ -144,6 +143,7 @@ const index = () => {
       <Head>
         <title>סוסופייננס</title>
         <meta name="description" content="home" />
+          <link rel="alternate" href="https://soso.co.il/" hrefLang="he-il"/>
         <meta
           name="description"
           content="מחפשים הלוואה? תפנו רק אל מי שילווה אתכם לכל אורך התהליך ולא רק 'ילווה' לכם. אנו בסוסו פייננס נותנים ייעוץ וליווי פיננסי חוץ בנקאי כדי לעזור לכם להשיג ביטחון כלכלי אמיתי!"
@@ -156,15 +156,27 @@ const index = () => {
               <Row>
                 <Col6>
                   <BannerImg>
+                      <div
+                       style={{
+                          maxWidth: "1011px",
+                          maxHeight: "644px",
+                          position: "relative",
+                          alignSelf: "center",
+                         aspectRatio: "1011/644",
+                       }}
+                     >
                     <Image
-                      data-aos="fade-left"
-                      src="/banner-img1.png"
+                     data-aos="fade-left"
+                      src="/banner-img1.webp"
                       alt="background-frame"
-                      width="937"
-                      height="597"
+                     width={940}
+                     height={600}
+                      quality={100}
                       placeholder="blur"
-                      blurDataURL="/banner-img1.png"
+                      blurDataURL="/banner-img1.webp"
+                       priority
                     />
+                      </div>
                   </BannerImg>
                 </Col6>
               </Row>
@@ -175,17 +187,15 @@ const index = () => {
                   <Col6 />
                   <Col6>
                 <Slogan >
-                      סוסופייננס - הלוואות לכל מטרה וייעוץ משכנתאות
+                      סוסופייננס - נותנים כסף חכם!
                     </Slogan>
                     <BannerTitle >
-                        תנו לנו לעזור לכל
+                        תנו לנו לעזור לכם
                       <br />
                       <span>בתשלומי המשכנתא</span>
                     </BannerTitle>
                     <BannerP >
-                      כרז לבנקים - נבנה עבורכם תמהיל עם מסלולים באמצעות מומחי
-                      פיננסים ונגיש אותו למכרז ריביות בין הבנקים כדי שתקבלו את
-                      ההצעה המשלמת ביותר.
+                        מכרז לבנקים - נבנה עבורכם תמהיל עם מסלולים המתאימים עבורכם באמצעות מומחי משכנתאות ונגיש אותו למכרז ריביות בין הבנקים כדי שתקבלו את ההצעה המשתלמת ביותר.
                     </BannerP>
                   </Col6>
                 </Row>

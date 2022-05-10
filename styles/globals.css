@@ -17,12 +17,12 @@ body {
 img {
   vertical-align: middle;
   border-style: none;
+  max-width: 100%;
+  height: auto;
 }
-
 button, input {
   overflow: visible;
 }
-
 a {
   color: inherit;
   text-decoration: none;
@@ -177,13 +177,13 @@ ul {
 }
 
 .background-image-routes {
-  background-image: url(../public/hero_area_bg1.jpg);
+  background-image: url(../public/hero_area_bg1.webp);
 }
 .background-image-non {
-  background-image: url(../public/start-up-loans-bg.jpg);
+  background-image: url(../public/start-up-loans-bg.webp);
 }
 .background-image-loan {
-  background-image: url(../public/loan_consolidation.png);
+  background-image: url(../public/loan_consolidation.webp);
 }
 
 @media (max-width: 991px) {
@@ -301,6 +301,8 @@ ul {
   animation: service_hexagon 3s infinite linear;
   -webkit-animation-play-state: paused;
   animation-play-state: paused;
+  z-index: -9;
+
 }
 .box-content:hover .anim-icon{
   -webkit-animation-play-state: running;

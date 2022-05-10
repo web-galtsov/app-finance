@@ -10,14 +10,15 @@ import {
    tabletMaxM
 } from "./screen-sizes";
 
-export const TextH5 = styled.h5`
+export const TextH5 = styled.p`
   text-align: center;
   font-size: 18px;
   line-height: 2;
   padding-bottom: 40px;
   padding-top: 50px;
   color: #2c3f98;
-`;
+  font-weight: 600;
+   `;
 export const FlexContainerN = styled.div`
       display: flex;
       flex-direction: row;
@@ -85,7 +86,7 @@ export const BoxContectIcon = styled.div`
    }
 `;
 export const BoxContectTitle = styled.div`
-  h4 {
+  h2 {
      font-size: 24px;
      padding-top: 1.5rem;
   }
@@ -94,7 +95,7 @@ export const BoxContectTitle = styled.div`
       text-align: center;
       font-size: 14px;
       line-height: 1.5;
-      min-height: 78px;
+      min-height: 122px;
       height: auto;
    }
 `;
@@ -107,7 +108,7 @@ export const Header = styled.div`
 export const SectionTitleText = styled.div`
       margin-bottom: 1rem!important;
       text-align: center;
-   h6 {
+   span {
       letter-spacing: 5px;
       color: #3f57bf;
       font-size: 16px;
@@ -119,7 +120,7 @@ export const SectionTitleText = styled.div`
       font-size: 42px;
    }
    @media screen and ${mobile} {
-      h6 {
+      span {
          letter-spacing: 1px;
       }
       h1 {
@@ -172,7 +173,6 @@ export const HeaderLogoAside = styled.div`
      margin-right: auto;
      max-width: 1170px;
      align-items: center;
-  
 `;
 export const HeaderLogoCollapse = styled.div`
      flex: 0 0 40%;
@@ -256,7 +256,7 @@ export const Nav = styled.nav`
       align-items: center;
       font-size: 1rem;
       position: ${({scrollNav}) => (scrollNav ? 'fixed' : 'relative')};
-      top: ${({scrollNav}) => (scrollNav ? '-10px' : '0')};
+      top: ${({scrollNav}) => (scrollNav ? '-1px' : '0')};
       z-index: 10;
       width: 100%;
       box-shadow: ${({scrollNav}) => (scrollNav ? '0 10px 30px 3px rgba(99, 119, 238, 0.40)' : 'none')};
@@ -517,7 +517,7 @@ export const TextH1 = styled.div`
    }
 `;
 
-export const TextH6 = styled.h6`
+export const TextH6 = styled.span`
       margin-top: 15px;
       letter-spacing: 5px;
       color: #0c5adb;
@@ -728,14 +728,22 @@ export const AboutTeamItemViewPosition = styled.div`
 export const AboutTeamItemInfo = styled.div`
       position: relative;
       text-align: center;
-   h5 {
+   span {
       line-height: 28px;
       margin-bottom: 0;
+      color: #232323;
+      font-family: Noto Sans Hebrew,sans-serif;
+      font-weight: 700;
+      transition: .5s;
+      margin-top: 11px;
+      display: flex;
+      flex-flow: column;
    }
-   span {
+   p {
       display: inline-block;
       line-height: 28px;
       color: #6a6a6a;
+      font-size: 16px;
    }
 `;
 export const InfoContainer = styled.div`

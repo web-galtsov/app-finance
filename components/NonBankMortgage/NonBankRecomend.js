@@ -22,7 +22,7 @@ const NonBankRecomend = () => {
     return (
         <>
             { noneData.map((item,pos) => {
-                const {lightBg, imgStart, topLine,lightText,headLine, darkText, description, img,alt} = item
+                const {lightBg, imgStart, topLine,lightText,headLine, darkText, description, img,alt, width, height} = item
                 return (
                     <InfoContainer  key={item.id} lightBg={lightBg} className="pt120 pb hisfull_about_area">
                         <Container key={item.id}>
@@ -50,6 +50,8 @@ const NonBankRecomend = () => {
                                                 <Image
                                                     src={img}
                                                     alt={alt}
+                                                    width={width}
+                                                    height={height}
                                                 />
                                             </SingleImage>
                                         </ImgWrap>

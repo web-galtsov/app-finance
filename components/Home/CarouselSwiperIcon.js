@@ -45,7 +45,13 @@ export default function CarouselSwiperIcon() {
                     {dataSliderIcons.map((obj) => {
                         return (
                             <SwiperSlide  key={obj.id}>
-                                <Image src={obj.img} width={obj.width} height={obj.height} alt={obj.alt}/>
+                                   <Image
+                                       src={obj.img}
+                                       width={obj.width}
+                                       height={obj.height}
+                                       alt={obj.alt}
+                                       priority
+                                   />
                             </SwiperSlide>
                         )
                     })}

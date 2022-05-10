@@ -52,8 +52,9 @@ function NavMenu() {
                                     <GoMilestone style={{fontSize: "38px", color: "#6178db"}}/>
                                 </UnitLeft>
                                 <UnitBody>
-                                    <p>המייסדים 58, אבן יהודה<br/>
-                                        אבן יהודה</p>
+                                    <p>הכישור 30 חולון<br/>
+                                        ישראל
+                                    </p>
                                 </UnitBody>
                             </HeaderLogoContactsUnit>
                         </HeaderLogoCollapse>
@@ -61,7 +62,24 @@ function NavMenu() {
                             <HeaderLogoPanelBrand>
                                 <Link href="/" passHref>
                                     <HeaderLogoPanelBrandLink>
-                                        <Image src="/logo.png" alt="SOSOFinance" width="150" height="105"/>
+                                        <div
+                                            style={{
+                                                width: "150px",
+                                                height: "105x",
+                                                position: "relative",
+                                                alignSelf: "center",
+                                                aspectRatio: "150/105",
+                                            }}
+                                        >
+                                               <Image
+                                                   src="/logo.webp"
+                                                   alt="SOSOFinance"
+                                                   rel="apple-touch-icon"
+                                                   layout="fill"
+                                                   objectFit="contain"
+                                                   priority
+                                               />
+                                        </div>
                                     </HeaderLogoPanelBrandLink>
                                 </Link>
                             </HeaderLogoPanelBrand>
@@ -70,10 +88,10 @@ function NavMenu() {
                             <HeaderLogoContacts>
                                 <UnitBodyPhone>
                                     <li>
-                                       <a href="tel:097057456666" aria-label="telephone" >+097205402345678</a>
+                                       <a href="tel:09720503467613" aria-label="telephone" rel="apple-touch-icon">0503467613</a>
                                     </li>
                                     <li>
-                                       <a href="tel:097205402345678" aria-label="telephone">+097205402345678</a>
+                                       <a href="tel:09720537734677" aria-label="telephone" rel="apple-touch-icon">0537734677</a>
                                     </li>
                                 </UnitBodyPhone>
                                 <UnitLeft>
@@ -89,47 +107,47 @@ function NavMenu() {
                     </div>
                     <NavMain className={click ? " nav-menu click" : "nav-menu"}>
                         <li>
-                            <ActiveLink activeClassName="active"  href = "/"  prefetch={false}>
+                            <ActiveLink activeClassName="active"  href = "/"  prefetch={false} rel="apple-touch-icon">
                                 <a><StyledLink className="navlink" onClick={closeMobileMenu}>ראשי</StyledLink></a>
                             </ActiveLink>
                         </li>
                         <li>
-                            <ActiveLink activeClassName="active"  href="/about" prefetch={false}>
+                            <ActiveLink activeClassName="active"  href="/about" prefetch={false} rel="apple-touch-icon">
                                 <a><StyledLink className="navlink" onClick={closeMobileMenu}>אודות</StyledLink></a>
                             </ActiveLink>
                         </li>
                         <li>
-                            <ActiveLink activeClassName="active"  href="/our_services" prefetch={false}>
+                            <ActiveLink activeClassName="active"  href="/our_services" prefetch={false} rel="apple-touch-icon">
                                  <a><StyledLink className="navlink" onClick={closeMobileMenu}>השירותים שלנו</StyledLink></a>
                             </ActiveLink>
                         </li>
                         <li>
-                            <ActiveLink activeClassName="active"  href="/mortgage_advice" prefetch={false}>
+                            <ActiveLink activeClassName="active"  href="/mortgage_advice" prefetch={false} rel="apple-touch-icon">
                                  <a><StyledLink className="navlink" onClick={closeMobileMenu}>ייעוץ משכנתאות</StyledLink></a>
                             </ActiveLink>
                         </li>
                         <li>
-                            <ActiveLink activeClassName="active"  href="/mortgage_deniers" prefetch={false}>
+                            <ActiveLink activeClassName="active"  href="/mortgage_deniers" prefetch={false} rel="apple-touch-icon">
                                  <a><StyledLink className="navlink" onClick={closeMobileMenu}>מסורבי משכנתא</StyledLink></a>
                             </ActiveLink>
                         </li>
                         <li>
-                            <ActiveLink activeClassName="active"  href="/mortgage_routes" prefetch={false}>
+                            <ActiveLink activeClassName="active"  href="/mortgage_routes" prefetch={false} rel="apple-touch-icon">
                                    <a><StyledLink className="navlink" onClick={closeMobileMenu}>מסלולי המשכנתאות</StyledLink></a>
                             </ActiveLink>
                         </li>
                         <li>
-                            <ActiveLink activeClassName="active"  href="/loan_consolidation" prefetch={false}>
+                            <ActiveLink activeClassName="active"  href="/loan_consolidation" prefetch={false} rel="apple-touch-icon">
                                 <a><StyledLink className="navlink" onClick={closeMobileMenu}>איחוד הלוואות</StyledLink></a>
                             </ActiveLink>
                         </li>
                         <li>
-                            <ActiveLink activeClassName="active"  href="/non_bank_mortgage" prefetch={false}>
+                            <ActiveLink activeClassName="active"  href="/non_bank_mortgage" prefetch={false} rel="apple-touch-icon">
                                 <a><StyledLink className="navlink" onClick={closeMobileMenu}>משכנתא חוץ בנקאית</StyledLink></a>
                             </ActiveLink>
                         </li>
                         <li>
-                        <ActiveLink activeClassName="active" href="/contact" prefetch={false}>
+                        <ActiveLink activeClassName="active" href="/contact" prefetch={false} rel="apple-touch-icon">
                             <a><StyledLink className="navlink" onClick={closeMobileMenu}>צור קשר</StyledLink></a>
                         </ActiveLink>
                         </li>
@@ -137,10 +155,10 @@ function NavMenu() {
                             <HeaderMobileNavBox>
                                 <UnitBodyPhone>
                                     <li>
-                                        <a href="tel:053-7734677" aria-label="telephone" rel="noopener noreferrer">+097053-7734677</a>
+                                        <a href="tel:053-7734677" aria-label="telephone" rel="noopener noreferrer apple-touch-icon">+097053-7734677</a>
                                     </li>
                                     <li>
-                                        <a href="tel:097054-6868540" aria-label="telephone" rel="noopener noreferrer">+097054-6868540</a>
+                                        <a href="tel:097054-6868540" aria-label="telephone" rel="noopener noreferrer apple-touch-icon">+097054-6868540</a>
                                     </li>
                                 </UnitBodyPhone>
                                 <UnitBody>

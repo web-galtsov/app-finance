@@ -47,12 +47,13 @@ const SingleSliderRot = styled.div`
             <WrapContent className="pt pb background-image background-image-routes">
                    <SingleSliderRot className="rotateme">
                         <Image
-                            src="/sdt.png"
+                            src="/sdt.webp"
                             alt="sdt"
+                            placeholder="blur"
+                            blurDataURL="/sdt.webp"
                             width={872}
                             height={870}
-                            placeholder="blur"
-                            blurDataURL="/sdt.png"
+                            priority
                         />
                     </SingleSliderRot>
                     <SectionTitleText data-aos="zoom-out" style={{zIndex: "2"}}>

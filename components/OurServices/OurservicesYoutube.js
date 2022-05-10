@@ -2,10 +2,11 @@ import Image from "next/image";
 import {
     Container,
     WrapContent,
-    FlexContainerN
+    FlexContainerN, SectionTitleText, EmBar, EmBarBg
 } from "@/layout/Styles";
 import styled from "styled-components";
 import {VideoModal} from "./VideoModal"
+import React from "react";
 
 const BoxYoutube = styled.div`
   text-align: center;
@@ -44,14 +45,33 @@ export default function OurservicesYoutube() {
     return (
         <>
             <WrapContent className="pt pb background-grey">
-                <Container>
+                <SectionTitleText>
+                    <h1>סרטון תדמית יוסף גוריאלי</h1>
+                </SectionTitleText>
+                <EmBar>
+                    <EmBarBg />
+                </EmBar>
+                <Container className = 'pt-92' >
                     <FlexContainerN>
                         <VideoModal/>
                         <BoxBg>
-                            <Image src="/app-bg.svg" alt="background-frame" width={650} height={650}/>
+                              <Image
+                                 src="/app-bg.svg"
+                                 alt="background-frame"
+                                 width={650}
+                                 height={650}
+                                 priority
+                              />
                         </BoxBg>
                         <BoxYoutube>
-                            <Image data-aos="fade-right" src="/undraw_revenue_re_2bmg.svg" alt="background-frame" width={602} height={696}/>
+                            <Image
+                              data-aos="fade-right"
+                              src="/undraw_revenue_re_2bmg.svg"
+                              alt="background-frame"
+                              width={602}
+                              height={696}
+                              priority
+                            />
                         </BoxYoutube>
                     </FlexContainerN>
                 </Container>

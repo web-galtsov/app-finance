@@ -33,20 +33,11 @@ function contact() {
       </Head>
         <ContactBgPositionAnim>
         <div className="background-shape-3">
-          <div className="cube" />
-          <div className="cube" />
-          <div className="cube" />
-          <div className="cube" /> <div className="cube" />
-          <div className="cube" />
-          <div className="cube" />
-          <div className="cube" />
-          <div className="cube" />
-          <div className="cube" />{" "}
+          <div className="cube" /><div className="cube" /><div className="cube" /><div className="cube" /> <div className="cube" /><div className="cube" /><div className="cube" /><div className="cube" /><div className="cube" /><div className="cube" />{" "}
         </div>
         <WrapContent className="pt pb background-grey">
           <SectionTitleText>
-            <h6>תעודת הוקרה</h6>
-            <h1>צור קשר</h1>
+           <h1>צור קשר</h1>
           </SectionTitleText>
           <EmBar>
             <EmBarBg />
@@ -88,14 +79,15 @@ function contact() {
               <ContactB />
               <Col6 className="pr" data-aos="fade-right">
                 <AnimContactBackground>
-                  <Image
-                    src="/contact-img.png"
-                    alt="background-frame"
-                    width={587}
-                    height={444}
-                    placeholder="blur"
-                    blurDataURL="/contact-img.png"
-                  />
+                      <Image
+                      src="/contact-img.png"
+                      alt="background-frame"
+                      placeholder="blur"
+                      blurDataURL="/contact-img.png"
+                      width={587}
+                      height={444}
+                      priority
+                    />
                 </AnimContactBackground>
               </Col6>
             </Row>

@@ -35,7 +35,7 @@ export const LargePersonListItem = ({ person }) => {
     return (
         <>
                  <StyleIcon>{icon}</StyleIcon>
-                  <h4>{name}</h4>
+                  <h2>{name}</h2>
 
             <ul>
                 {description.map(description =>

@@ -15,6 +15,7 @@ import {
     Button,
 } from "@/layout/Styles";
 
+const word = ' היא להשיג עבורכם ביטחון כלכלי וחסכון של כ 100,000 ש"ח!' // eslint-disable-next-line
 function HomeWhy() {
     return (
         <>
@@ -23,24 +24,28 @@ function HomeWhy() {
                     <FlexContainerN className="column-reverse">
                         <Col6 className="pl" data-aos="fade-left">
                             <Image
-                                priority
-                                src="/banner-img.png"
+                                src="/banner-img.webp"
                                 alt="background-frame"
-                                width="677"
-                                height="580"
                                 placeholder="blur"
-                                blurDataURL="/banner-img.png"
+                                width={677}
+                                height={580}
+                                blurDataURL="/banner-img.webp"
+                                priority
                             />
                         </Col6>
                         <Col6 className="pr"  data-aos="fade-right">
                             <BoxInfo>
-                                <TextH6>אודות החבר</TextH6>
-                                <TextH1>למה אנחנו?</TextH1>
+                               {/* <TextH6>אודות החבר</TextH6>*/}
+                                <TextH1>המטרה שלי </TextH1>
+                                <TextH6>
+                                    {word}
+                                    {/* היא להשיג עבורכם ביטחון כלכלי וחסכון של כ 100,000 ש"ח!*/}
+                                  </TextH6>
                                 <EmBar>
                                     <EmBarBg/>
                                 </EmBar>
                                 <TextP>
-                                    תשואות פיננסים הינה אחת מחברות ייעוץ המשכנתאות המוערכות ביותר בישראל. בעלי החברה יוצאי המערכת הבנקאית אשר כיהנו בתפקידי מפתח בבנקים השונים בתחום האשראי והמשכנתאות. כמו כן, היועצים בחברה חברים בהתאחדות יועצי המשכנתאות
+                                    חברת סוסופייננס הינה גוף ייעוץ חוץ בנקאי המתמחה בענף המשכנתאות והבנקאות למגזר הפרטי והעסקי בישראל. האינטרס שלנו הוא לדאוג ללקוח בכך שיוכל לקבל מהבנק את הסכום הנדרש לו,ולהחזירו בתנאים הטובים ביותר.
                                 </TextP>
                                 <Link href='/about' passHref>
                                     <Button className="mt40"><FaRegArrowAltCircleRight style={{display: "inline-block",fontSize: "1.15rem",marginLeft: "10px",verticalAlign: "middle"}}/>
